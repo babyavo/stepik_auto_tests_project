@@ -16,3 +16,8 @@ class ProductPageLocators():
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages> .alert.fade.in:nth-child(1)> .alertinner")
     EXPECTED_PRICE = (By.CSS_SELECTOR, ".product_main .price_color")
     REAL_PRICE = (By.CSS_SELECTOR, "#messages> .alert.fade.in:nth-child(3)> .alertinner strong")
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
